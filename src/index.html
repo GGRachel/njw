@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../dist/style.min.css" />
+	</head>
+	<body>
+	<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<!--header-->
+		<div id='header'>
+			<div class='left'>
+				<a herf='#' class='a1'>登录</a>
+				<a herf='#' class='a2'>注册</a>
+			</div>
+			<ul class='right'>
+			<li><a herf='#'>商城首页</a></li>
+			<li><a herf='#'>我的订单</a></li>
+			<li><a herf='#'>开店申请</a></li>
+			<li><a herf='#'>我的收藏</a></li>
+			
+			</ul>
+		</div>
+		<!--logo-->
+		<div id="logo">
+			<div class='logo'>
+				<img src="img/logo.jpg" /> 
+			</div>
+			<div class='spgw'>
+				<div class='spgwleft'>
+					<input type="button" value="商品" id='btn' />
+					<input type="text" id='txt' placeholder="请输入要搜索的内容"/>
+					<input type="button" value="搜索" id='ss' />
+				</div>
+				<div class='spgwright'>
+					<div class='shop'>商品购物车</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--nav-->
+		<div id='nav'>
+			<ul>
+			<li class='fl'>全部商品分类</li>
+			<li><a href='#'>优惠劵</a></li>
+			<li><a href='#'>特殊贵州</a></li>
+			<li><a href='#'>极速达</a></li>
+			<li><a href='#'>那家海淘</a></li>
+			<li><a href='#'>三品一馆</a></li>
+			<li><a href='#'>贵州扶贫馆</a></li>
+			</ul>
+		</div>
+		<!--lunbo-->
+		<div id="lp">
+			<img src="img/88b9e2cd-194e-440d-a124-e27528e84f10.jpg" /> 
+			<img  class='img' src="img/dw.jpg" /> 
+			<ul class='ull'>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span>></span></li>
+				<li><a>食品、酒水、茶 </a><span></span></li>
+				
+				
+			</ul>
+			<script type="text/javascript">
+			var $lis = $('ul li');
+			$.each($lis, function() {
+				$(this).mouseenter(function(){
+					$(this).css('background','#2eabe5');
+				})
+				$(this).mouseleave(function(){
+					$(this).css('background','');
+				})
+			});
+		</script>
+		</div>
+		<div id='ztg'>
+			<h3 class="h3">主题购</h3>
+			<div class='jd'>
+			<img src="img/2d569b42-f4a8-40b2-ac9b-a4460830ff84.jpg" /> 
+			</div>
+			<div class='jd'>
+			<img src="img/2d569b42-f4a8-40b2-ac9b-a4460830ff84.jpg" /> 
+			</div>
+			<div class='jd'>
+			<img src="img/2d569b42-f4a8-40b2-ac9b-a4460830ff84.jpg" /> 
+			</div>
+			<div class='jd'>
+			<img src="img/2d569b42-f4a8-40b2-ac9b-a4460830ff84.jpg" /> 
+			</div>
+		</div>
+		<div id='cy'>
+			<div class='cyleft'>
+				<img src="img/31a9ef7c-9853-49e5-b2d6-10d0a93c1bef.jpg" /> 
+			</div>
+			<div class='cycen'>
+				<div class='man'>
+					<img src="img/bb950e0f-b114-430f-b639-08aa070b4868.jpg"  />
+				</div>
+				<div class='man'>
+					<img src="img/bb950e0f-b114-430f-b639-08aa070b4868.jpg"  />
+				</div>
+				<div class='man'>
+					<img src="img/bb950e0f-b114-430f-b639-08aa070b4868.jpg"  />
+				</div>
+				<div class='man'>
+					<img src="img/bb950e0f-b114-430f-b639-08aa070b4868.jpg"  />
+				</div>
+				<div class='man'>
+					<img src="img/bb950e0f-b114-430f-b639-08aa070b4868.jpg"  />
+				</div>
+				<div class='man'>
+					<img src="img/bb950e0f-b114-430f-b639-08aa070b4868.jpg"  />
+				</div>
+			</div>
+			<div class='cyright'>
+				<img src="img/962b4c00-389f-431a-993f-08887b0da710.jpg" /> 
+			</div>
+		</div>
+		<!--1f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		
+		<!--2f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		
+		<!--3f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		<!--4f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		<!--5f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		<!--6f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		<!--7f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		<!--8f-->
+		<div id='liucheng'>
+			<div class='bt'>
+				<span class='sp1'><a class='af'>1F</a></span>
+				<span class='sp2'><a class='aj'>那家优选</a></span>
+			</div>
+			<div class='qs'>黔山好货</div>
+			<div class='gzt'>
+			<span class='gp'>果脯</span>  
+			<span class='nrg'>牛肉干</span><br>
+			<a class='mjc'>毛尖茶</a><a class='dg'>豆干</a><br>
+			<span class='lg'>梨干</span><br>
+			<a class='tdp'>麻辣土豆片</a><br>
+			<img src='img/f75c6c82-9c85-4137-92d1-c47230b20bdb.jpg' />
+			</div>
+			<div class='xlx'>
+				<div class='one'>
+					<img src="img/3af53124-df3d-46ef-9943-e9e239930d41.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+				<div class='two'>
+					<img src="img/d7102321-a6f2-4fd7-8a58-716ed1def8a5.jpg" /> 
+				</div>
+			</div>
+		</div>
+		
+		<!--foot-->
+		<div class="ft">
+			<div class='sz mw'>
+				<img src="img/283197f7-068e-44a9-9470-bdd649f909f9.jpg" /> 
+			</div>
+			<div class='sz'>
+				<img src="img/283197f7-068e-44a9-9470-bdd649f909f9.jpg" /> 
+			</div>
+			<div class='sz'>
+				<img src="img/283197f7-068e-44a9-9470-bdd649f909f9.jpg" /> 
+			</div>
+			<div class='sz'>
+				<img src="img/283197f7-068e-44a9-9470-bdd649f909f9.jpg" /> 
+			</div>
+		</div>
+		<div class='kong'></div>
+		<div class='footer'>
+			<p class='p1'>增值电信营业许可证(icp):营业执照：32423423432</p>
+			<p class='p2'>|黔ICP备14006382号 | copyright@贵州电子商务云运营有限责任公司 </p>
+			<img src='img/ft.jpg' />
+		</div>
+	</body>
+</html>
